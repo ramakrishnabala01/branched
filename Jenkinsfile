@@ -6,7 +6,7 @@ pipeline{
 	stages{
 	 stage ('first'){
 	   steps{	
-             echo 'something else'
+             echo 'trigger build...'
 	   }
 	 }
 	}
